@@ -1,0 +1,126 @@
+/*
+
+gold = #c5ad65 
+
+*/
+
+html {
+    font-family: sans-serif;
+}
+
+.site-header {
+}
+.body{
+    background-color: #eee
+}
+
+.logo {
+    width: 500px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+} 
+
+.background-maroon {
+    background-color: rgb(128, 0, 0);    
+}
+
+.table-padding {
+    padding: 2px 5px;
+}
+
+.row-padding {
+    padding: 7px;
+}
+
+.navigation {
+    background-color: #fff;
+    border-bottom: 5px maroon solid;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 0 0.5px 0 #ccc,
+    0 1px 0 #c9c9c9,
+    0 1.5px 0 #bbb,
+    0 2px 0 #b9b9b9,
+    0 2.5px 0 #aaa,
+    0 3px 0.5px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 0.5px 1.5px rgba(0,0,0,.3),
+    0 1.5px 2.5px rgba(0,0,0,.2),
+    0 2.5px 5px rgba(0,0,0,.25),
+    0 5px 5px rgba(0,0,0,.2),
+    0 10px 10px rgba(0,0,0,.15);
+    box-shadow: inset 0 0 10px 1.5px rgba(0,0,0, 0.8);
+    border-radius: 8.5px 
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation a {
+    display: block;
+    padding: 20px;
+    color: maroon;
+}
+
+.navigation a:hover,
+a.current {
+    background: #c5ad65;
+    color: #fff;
+    text-shadow: 0 0.5px 0 #ccc,
+    0 1px 0 #c9c9c9,
+    0 1.5px 0 #bbb,
+    0 2px 0 #b9b9b9,
+    0 2.5px 0 #aaa,
+    0 3px 0.5px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 0.5px 1.5px rgba(0,0,0,.3),
+    0 1.5px 2.5px rgba(0,0,0,.2),
+    0 2.5px 5px rgba(0,0,0,.25),
+    0 5px 5px rgba(0,0,0,.2),
+    0 10px 10px rgba(0,0,0,.15);
+    box-shadow: inset 0 0 6px 1px rgba(0,0,0, 0.8);
+    border-radius: 5px;
+}
+
+.box {
+    padding: 20px;
+}
+
+.site-main {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.title-caption {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.site-footer {
+    color: #fff;
+}
